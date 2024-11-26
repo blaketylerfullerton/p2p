@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+logs/
+log/
+*.pid
+
+# Model files and artifacts
+models/
+*.onnx
+*.pt
+*.pth
+*.h5
+*.bin
+*.safetensors
+*.gguf
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.local.yaml
+*.local.yml
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Documentation
+docs/_build/
+site/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Profiling data
+*.prof
+*.stats
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# API keys and secrets
+*.pem
+*.key
+credentials.json
+token.json
+secrets.yaml
+.secrets/
